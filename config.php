@@ -7,7 +7,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'academic_platform');
 
 // Site Configuration
-define('SITE_NAME', 'AcadShare');
+define('SITE_NAME', 'CampusVault');
 define('SITE_URL', 'http://localhost/academic_platform');
 define('UPLOAD_DIR', __DIR__ . '/uploads/');
 define('ALLOWED_TYPES', ['pdf', 'doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx', 'txt', 'zip', 'png', 'jpg', 'jpeg']);

@@ -44,8 +44,8 @@ $hasProfilePic = $profilePic && is_file($profilePicPath);
 <nav class="navbar">
     <div class="nav-container">
         <a class="nav-brand" href="<?= h(SITE_URL) ?>/index.php">
-            <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
-            <span class="brand-text">Acad<span class="accent">Share</span></span>
+            <span class="brand-icon"><i class="fa-solid fa-university"></i></span>
+            <span class="brand-text">Campus<span class="accent">Vault</span></span>
         </a>
 
         <div class="nav-search">
@@ -114,8 +114,8 @@ $hasProfilePic = $profilePic && is_file($profilePicPath);
 <footer class="site-footer">
     <div class="footer-container">
         <div class="footer-brand">
-            <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
-            <span class="brand-text">Acad<span class="accent">Share</span></span>
+            <span class="brand-icon"><i class="fa-solid fa-university"></i></span>
+            <span class="brand-text">Campus<span class="accent">Vault</span></span>
             <p>Centralised platform for sharing academic resources among students and faculty.</p>
         </div>
         <div class="footer-links">
@@ -148,7 +148,7 @@ $hasProfilePic = $profilePic && is_file($profilePicPath);
         </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; <?= date('Y') ?> AcadShare. Built for students, by students.</p>
+        <p>&copy; <?= date('Y') ?> CampusVault. Built for students, by students.</p>
     </div>
 </footer>
 

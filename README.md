@@ -1,6 +1,6 @@
-# AcadShare - Academic Resource Sharing Platform
+# CampusVault - Academic Resource Sharing Platform
 
-AcadShare is a PHP and MySQL based academic resource sharing platform for students and faculty. It lets registered users upload, browse, bookmark, and download academic files such as notes, previous papers, textbooks, lab manuals, presentations, assignments, and research material.
+CampusVault is a PHP and MySQL based academic resource sharing platform for students and faculty. It lets registered users upload, browse, bookmark, and download academic files such as notes, previous papers, textbooks, lab manuals, presentations, assignments, and research material.
 
 The application is designed for a local XAMPP environment and keeps resources private: uploaded files and resource listings are available only after a user logs in.
 
@@ -15,7 +15,7 @@ The application is designed for a local XAMPP environment and keeps resources pr
 - Bookmark resources through an AJAX API
 - Authenticated file downloads through `download.php`
 - Direct upload-folder access blocked with `uploads/.htaccess`
-- Responsive UI using the existing AcadShare theme
+- Responsive UI using the existing CampusVault theme
 
 ## Technology Stack
 

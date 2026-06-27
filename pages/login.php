@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <main class="auth-container">
     <section class="auth-card">
         <div class="auth-logo">
-            <span class="brand-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+            <span class="brand-icon"><i class="fa-solid fa-university"></i></span>
             <h1>Welcome back</h1>
             <p>Log in to manage and share academic resources.</p>
         </div>
