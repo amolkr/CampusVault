@@ -4,6 +4,7 @@ CampusVault is a PHP and MySQL based academic resource sharing platform for stud
 
 The application is designed for a local XAMPP environment and keeps resources private: uploaded files and resource listings are available only after a user logs in.
 
+
 ## Features
 
 - User registration and login
@@ -17,6 +18,7 @@ The application is designed for a local XAMPP environment and keeps resources pr
 - Direct upload-folder access blocked with `uploads/.htaccess`
 - Responsive UI using the existing CampusVault theme
 
+
 ## Technology Stack
 
 - HTML
@@ -25,6 +27,7 @@ The application is designed for a local XAMPP environment and keeps resources pr
 - PHP
 - MySQL
 - XAMPP
+
 
 ## Project Structure
 
@@ -52,6 +55,7 @@ academic_platform/
     └── .htaccess           # Blocks direct access to uploaded files
 ```
 
+
 ## Setup Instructions
 
 1. Place the project folder inside your XAMPP `htdocs` directory:
@@ -78,12 +82,14 @@ The SQL file creates the `academic_platform` database, all required tables, defa
 http://localhost/academic_platform
 ```
 
+
 ## Default Admin Login
 
 ```text
 Email: admin@academic.com
 Password: Admin@123
 ```
+
 
 ## Resource Access Rules
 
@@ -93,6 +99,7 @@ Resources are protected in two layers:
 - Files are not served directly from `uploads/`. Download links use `download.php?id=...`, which verifies that the user is logged in before serving the file.
 
 The `uploads/.htaccess` file also blocks direct Apache access to uploaded files. For this to work fully, Apache must allow `.htaccess` overrides. The PHP login check in `download.php` works independently of that Apache setting.
+
 
 ## Important Configuration
 
@@ -107,6 +114,7 @@ define('SITE_URL', 'http://localhost/academic_platform');
 ```
 
 If your folder name, host, database username, or password changes, update these values.
+
 
 ## Upload Rules
 
@@ -128,6 +136,7 @@ Uploaded files are stored in:
 uploads/
 ```
 
+
 ## Verification
 
 PHP syntax was checked with:
@@ -137,6 +146,7 @@ C:\xampp\php\php.exe -l path\to\file.php
 ```
 
 All PHP files passed syntax linting after the latest changes.
+
 
 ## Notes
 
